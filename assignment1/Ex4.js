@@ -44,7 +44,7 @@ console.log("question4");
 var _loop_1 = function (i) {
     setTimeout(function () {
         console.log(i);
-    }, i * 4000);
+    }, i * 1000);
 };
 for (var i = 0; i < 6; i++) {
     _loop_1(i);
@@ -66,4 +66,4 @@ var tinhCanBac2 = function (number) {
     tinhBinhPhuongHoacCanBacHai("canBacHai", number);
 };
 tinhBinhPhuong(5);
-tinhCanBac2(144);
+tinhCanBac2(100);
