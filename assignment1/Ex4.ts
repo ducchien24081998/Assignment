@@ -80,4 +80,4 @@ let tinhCanBac2 = (number: number) => {
     tinhBinhPhuongHoacCanBacHai("canBacHai", number);
 };
 tinhBinhPhuong(5);
-tinhCanBac2(100);
+tinhCanBac2(144);
